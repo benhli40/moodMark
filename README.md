@@ -16,9 +16,9 @@ It helps you capture how you're feeling each day with a quick emoji and short no
 
 ---
 
-## 📸 Screenshots
+## 📸 Live View
 
-> *(Add some screenshots of your mood picker and timeline view here)*
+> (https://benhli40.github.io/moodMark/)
 
 ---
 
