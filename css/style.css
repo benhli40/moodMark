@@ -1,0 +1,45 @@
+/* -------------------------------
+    Reset & Base Styles
+---------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* -------------------------------
+    App Layout
+---------------------------------- */
+#app {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+/* -------------------------------
+    Utility
+---------------------------------- */
+.center {
+  text-align: center;
+}
+
+.subtext {
+  color: var(--muted);
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.hidden {
+  display: none;
+}
